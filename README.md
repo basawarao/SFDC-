@@ -1,2 +1,10 @@
 # SFDC
 Creating APEX Classes 
+public class Example{
+  public String name{get;set;}
+  public Integer age{get;set;}
+  public String result{get;set;}
+  public void display(){
+    result='My Name is : '+name+' Age is : '+age
+  }
+}

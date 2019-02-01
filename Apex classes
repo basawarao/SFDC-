@@ -5,5 +5,6 @@ public class Example{
   public String result{get;set;}
   public void display(){
     result='My Name is : '+name+' Age is : '+age
+    System.debug('Result is '+result);
   }
 }
